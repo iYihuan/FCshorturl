@@ -1,0 +1,54 @@
+
+
+html {
+	font-family: 'Century Gothic','Microsoft YaHei',Verdana;
+}
+span,a,li,font,p,h1,h2,h3,h4,h5,h6,button,input,div{
+	font-family: 'Century Gothic','Microsoft YaHei',Verdana;
+}
+
+
+
+.sidebar2{
+	opacity: 0.85;
+}
+
+
+.bgcover{   
+	position:fixed;
+	top:0px;
+	left:0px;
+    width: 100%;   
+    height: 100%;   
+    background-image: url(https://cloudfuck.mcpe.cc/img/1.png);
+	backgrond-size:cover;
+    overflow: hidden;   
+}   
+.frosted-glass{   
+z-index:-1;
+    width: 100%;   
+    height: 100%; 
+	position:fixed;
+		top:0px;
+	left:0px;
+        background: inherit;   
+        -webkit-filter: blur(2px)   brightness(.8);
+        -moz-filter: blur(2px)   brightness(.8);
+        -ms-filter: blur(2px)   brightness(.8);
+        -o-filter: blur(2px)   brightness(.8);
+        filter: blur(2px)   brightness(.8);
+        filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=4, MakeShadow=false);   
+    }   
+    
+.box{
+	overflow:hidden;
+	background-color:rgba(255,255,255,0.85);
+}
+
+.box-container{
+	padding:20px;
+}
+
+.box-shadow{
+  box-shadow: 0 0 15px 0 rgba(128, 128, 128, 0.7)
+}
